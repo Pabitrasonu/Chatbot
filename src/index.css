@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind utilities;
+@tailwind utilities;
+
+
+:root {
+--border: 28, 28, 30;
+}
+
+
+* { box-sizing: border-box; }
+
+
+.scrollbar::-webkit-scrollbar { width: 10px; }
+.scrollbar::-webkit-scrollbar-thumb { background: rgb(var(--border)); border-radius: 999px; }
